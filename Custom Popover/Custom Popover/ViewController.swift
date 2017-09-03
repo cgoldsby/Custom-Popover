@@ -9,7 +9,7 @@
 import UIKit
 
 final class ViewController: UIViewController, UIPopoverPresentationControllerDelegate {
-    
+
     @IBOutlet private weak var label: UILabel!
     @IBOutlet private weak var callToActionButton: UIButton!
 
@@ -33,6 +33,9 @@ final class ViewController: UIViewController, UIPopoverPresentationControllerDel
         // Present the popover from the label instead of the CTA button
         popoverViewController.popoverPresentationController?.sourceRect = label.frame
         popoverViewController.popoverPresentationController?.sourceView = label
+        
+        // Style the background and arrow for popover
+        popoverViewController.popoverPresentationController?.popoverBackgroundViewClass = PopoverBackgroundView.self
     }
     
     // MARK: - UIPopoverPresentationControllerDelegate

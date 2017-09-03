@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB39A98E1F5C786400247D85 /* PopoverBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39A98D1F5C786400247D85 /* PopoverBackgroundView.swift */; };
 		EB67C6191F5C33C800EBA98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB67C6181F5C33C800EBA98B /* AppDelegate.swift */; };
 		EB67C61B1F5C33C800EBA98B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB67C61A1F5C33C800EBA98B /* ViewController.swift */; };
 		EB67C61E1F5C33C800EBA98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB67C61C1F5C33C800EBA98B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB39A98D1F5C786400247D85 /* PopoverBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverBackgroundView.swift; sourceTree = "<group>"; };
 		EB67C6151F5C33C800EBA98B /* Custom Popover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Popover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB67C6181F5C33C800EBA98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB67C61A1F5C33C800EBA98B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				EB67C6181F5C33C800EBA98B /* AppDelegate.swift */,
 				EB67C61A1F5C33C800EBA98B /* ViewController.swift */,
+				EB39A98D1F5C786400247D85 /* PopoverBackgroundView.swift */,
 				EB67C61C1F5C33C800EBA98B /* Main.storyboard */,
 				EB67C61F1F5C33C800EBA98B /* Assets.xcassets */,
 				EB67C6211F5C33C800EBA98B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB39A98E1F5C786400247D85 /* PopoverBackgroundView.swift in Sources */,
 				EB67C61B1F5C33C800EBA98B /* ViewController.swift in Sources */,
 				EB67C6191F5C33C800EBA98B /* AppDelegate.swift in Sources */,
 			);
